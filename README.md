@@ -15,15 +15,15 @@ forked from https://github.com/lordmacu/wmenu
 composer require Umar/laravel-menu
 ```
 
-**_Step 2 & 3 are optional if you are using laravel 5.5_**
+**_Step 2 & 3 are optional if you are using laravel 9_**
 
-2. Add the following class, to "providers" array in the file config/app.php (optional on laravel 5.5)
+2. Add the following class, to "providers" array in the file config/app.php (optional on laravel 9)
 
 ```php
 Harimayco\Menu\MenuServiceProvider::class,
 ```
 
-3. add facade in the file config/app.php (optional on laravel 5.5)
+3. add facade in the file config/app.php (optional on laravel 9)
 
 ```php
 'Menu' => Harimayco\Menu\Facades\Menu::class,
