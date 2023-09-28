@@ -1,10 +1,10 @@
 <?php
 
-namespace Harimayco\Menu;
+namespace Vfixtechnology\Menu;
 
 use App\Http\Requests;
-use Harimayco\Menu\Models\Menus;
-use Harimayco\Menu\Models\MenuItems;
+use Vfixtechnology\Menu\Models\Menus;
+use Vfixtechnology\Menu\Models\MenuItems;
 use Illuminate\Support\Facades\DB;
 
 class WMenu
