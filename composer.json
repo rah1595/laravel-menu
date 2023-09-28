@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Harimayco\\Menu\\MenuServiceProvider"
+                "Vfixtechnology\\Menu\\MenuServiceProvider"
             ],
             "aliases": {
-                "Menu": "Harimayco\\Menu\\Facades\\Menu"
+                "Menu": "Vfixtechnology\\Menu\\Facades\\Menu"
             }
         }
     },
